@@ -1,0 +1,53 @@
+<h1>{{titulo}}</h1>
+<hr>
+<div class="row animated fadeIn fast">
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-md-12 div-pic-1 puntero"
+          [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[0] | mostrarImagen)+ ' )'  }"
+          [routerLink]="['/detalle',peliculas.results[0].id,'home']">
+          <p class='pic-titulo'>
+              {{peliculas.results[0].title}}
+          </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 div-pic-2 puntero"
+            [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[1] | mostrarImagen)+ ' )'  }" [routerLink]="['/detalle',peliculas.results[1].id,'home']">
+            <p class='pic-titulo'>
+                {{peliculas.results[1].title}}
+            </p>
+      </div>
+      <div class="col-sm-6 div-pic-2 puntero"
+            [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[2] | mostrarImagen)+ ' )'  }" [routerLink]="['/detalle',peliculas.results[2].id,'home']">
+            <p class='pic-titulo'>
+                {{peliculas.results[2].title}}
+            </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="row">
+      <div class="col-sm-6 div-pic-2 puntero"
+            [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[3] | mostrarImagen)+ ' )'  }" [routerLink]="['/detalle',peliculas.results[3].id,'home']">
+            <p class='pic-titulo'>
+                {{peliculas.results[3].title}}
+            </p>
+      </div>
+      <div class="col-sm-6 div-pic-2 puntero"
+            [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[4] | mostrarImagen)+ ' )'  }" [routerLink]="['/detalle',peliculas.results[4].id,'home']">
+            <p class='pic-titulo'>
+                {{peliculas.results[4].title}}
+            </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 div-pic-1 puntero"
+      [ngStyle]="{ 'background-image': 'url( '+ (peliculas.results[5] | mostrarImagen)+ ' )'  }" [routerLink]="['/detalle',peliculas.results[5].id,'home']">
+      <p class='pic-titulo'>
+          {{peliculas.results[5].title}}
+      </p>
+    </div>
+  </div>
+  </div>
+</div>

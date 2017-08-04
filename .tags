@@ -1,0 +1,144 @@
+body	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^body{$/;"	function	line:2
+.main-container	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.main-container{$/;"	function	line:6
+.puntero	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.puntero{$/;"	function	line:11
+.div-pic-1	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.div-pic-1{$/;"	function	line:16
+.pic-titulo	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.pic-titulo{$/;"	function	line:25
+.div-pic-2	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.div-pic-2{$/;"	function	line:34
+.animated	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.animated {$/;"	function	line:46
+.fast	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.fast {$/;"	function	line:53
+@keyframes fadeIn	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^@keyframes fadeIn {$/;"	function	line:60
+from	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^  from {$/;"	function	line:61
+to	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^  to {$/;"	function	line:65
+.fadeIn	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/styles.css	/^.fadeIn {$/;"	function	line:70
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^<div class="jumbotron jumbotron-fluid">$/;"	function	line:1
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^  <div class="container">$/;"	function	line:2
+h	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^    <h1 class="display-3">Pel&iacute;culas APP<\/h1>$/;"	function	line:3
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^    <p class="lead">Sitio que permite visualizar lo mas destacado del mes en el s&eacute;ptimo arte.<\/p>$/;"	function	line:4
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^<div class="container main-container" *ngIf="carteleraGeneral">$/;"	function	line:7
+app	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^    <app-galeria [peliculas]="carteleraGeneral" titulo="En cartelera"><\/app-galeria>$/;"	function	line:8
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^<div class="container main-container" *ngIf="populares">$/;"	function	line:10
+app	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^  <app-galeria [peliculas]="populares" titulo="Peliculas mas populares"><\/app-galeria>$/;"	function	line:11
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^<div class="container main-container" *ngIf="carteleraKids">$/;"	function	line:13
+app	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/home.component.html	/^  <app-galeria [peliculas]="carteleraKids" titulo="Populares infantiles"><\/app-galeria>$/;"	function	line:14
+rulesDirectory	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^  "rulesDirectory": [$/;"	function	line:2
+rules	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^  "rules": {$/;"	function	line:5
+arrow-return-shorthand	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "arrow-return-shorthand": true,$/;"	function	line:6
+callable-types	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "callable-types": true,$/;"	function	line:7
+class-name	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "class-name": true,$/;"	function	line:8
+comment-format	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "comment-format": [$/;"	function	line:9
+curly	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "curly": true,$/;"	function	line:13
+eofline	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "eofline": true,$/;"	function	line:14
+forin	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "forin": true,$/;"	function	line:15
+import-blacklist	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "import-blacklist": [$/;"	function	line:16
+import-spacing	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "import-spacing": true,$/;"	function	line:20
+indent	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "indent": [$/;"	function	line:21
+interface-over-type-literal	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "interface-over-type-literal": true,$/;"	function	line:25
+label-position	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "label-position": true,$/;"	function	line:26
+max-line-length	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "max-line-length": [$/;"	function	line:27
+member-access	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "member-access": false,$/;"	function	line:31
+member-ordering	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "member-ordering": [$/;"	function	line:32
+no-arg	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-arg": true,$/;"	function	line:37
+no-bitwise	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-bitwise": true,$/;"	function	line:38
+no-console	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-console": [$/;"	function	line:39
+no-construct	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-construct": true,$/;"	function	line:47
+no-debugger	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-debugger": true,$/;"	function	line:48
+no-duplicate-super	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-duplicate-super": true,$/;"	function	line:49
+no-empty	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-empty": false,$/;"	function	line:50
+no-empty-interface	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-empty-interface": true,$/;"	function	line:51
+no-eval	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-eval": true,$/;"	function	line:52
+no-inferrable-types	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-inferrable-types": [$/;"	function	line:53
+no-misused-new	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-misused-new": true,$/;"	function	line:57
+no-non-null-assertion	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-non-null-assertion": true,$/;"	function	line:58
+no-shadowed-variable	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-shadowed-variable": true,$/;"	function	line:59
+no-string-literal	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-string-literal": false,$/;"	function	line:60
+no-string-throw	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-string-throw": true,$/;"	function	line:61
+no-switch-case-fall-through	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-switch-case-fall-through": true,$/;"	function	line:62
+no-trailing-whitespace	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-trailing-whitespace": true,$/;"	function	line:63
+no-unnecessary-initializer	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-unnecessary-initializer": true,$/;"	function	line:64
+no-unused-expression	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-unused-expression": true,$/;"	function	line:65
+no-use-before-declare	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-use-before-declare": true,$/;"	function	line:66
+no-var-keyword	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-var-keyword": true,$/;"	function	line:67
+object-literal-sort-keys	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "object-literal-sort-keys": false,$/;"	function	line:68
+one-line	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "one-line": [$/;"	function	line:69
+prefer-const	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "prefer-const": true,$/;"	function	line:76
+quotemark	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "quotemark": [$/;"	function	line:77
+radix	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "radix": true,$/;"	function	line:81
+semicolon	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "semicolon": [$/;"	function	line:82
+triple-equals	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "triple-equals": [$/;"	function	line:85
+typedef-whitespace	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "typedef-whitespace": [$/;"	function	line:89
+call-signature	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^        "call-signature": "nospace",$/;"	function	line:92
+index-signature	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^        "index-signature": "nospace",$/;"	function	line:93
+parameter	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^        "parameter": "nospace",$/;"	function	line:94
+property-declaration	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^        "property-declaration": "nospace",$/;"	function	line:95
+variable-declaration	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^        "variable-declaration": "nospace"$/;"	function	line:96
+typeof-compare	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "typeof-compare": true,$/;"	function	line:99
+unified-signatures	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "unified-signatures": true,$/;"	function	line:100
+variable-name	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "variable-name": false,$/;"	function	line:101
+whitespace	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "whitespace": [$/;"	function	line:102
+directive-selector	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "directive-selector": [$/;"	function	line:110
+component-selector	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "component-selector": [$/;"	function	line:116
+use-input-property-decorator	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "use-input-property-decorator": true,$/;"	function	line:122
+use-output-property-decorator	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "use-output-property-decorator": true,$/;"	function	line:123
+use-host-property-decorator	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "use-host-property-decorator": true,$/;"	function	line:124
+no-input-rename	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-input-rename": true,$/;"	function	line:125
+no-output-rename	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-output-rename": true,$/;"	function	line:126
+use-life-cycle-interface	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "use-life-cycle-interface": true,$/;"	function	line:127
+use-pipe-transform-interface	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "use-pipe-transform-interface": true,$/;"	function	line:128
+component-class-suffix	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "component-class-suffix": true,$/;"	function	line:129
+directive-class-suffix	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "directive-class-suffix": true,$/;"	function	line:130
+no-access-missing-member	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "no-access-missing-member": true,$/;"	function	line:131
+templates-use-public	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "templates-use-public": true,$/;"	function	line:132
+invoke-injectable	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/tslint.json	/^    "invoke-injectable": true$/;"	function	line:133
+nav	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">$/;"	function	line:1
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">$/;"	function	line:2
+span	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <span class="navbar-toggler-icon"><\/span>$/;"	function	line:3
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <a class="navbar-brand" href="#">$/;"	function	line:5
+img	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <img src="\/assets\/img\/movie-icon.png" width="50" height="50" alt="">$/;"	function	line:6
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^  <div class="collapse navbar-collapse" id="navbarSupportedContent">$/;"	function	line:10
+ul	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <ul class="navbar-nav mr-auto">$/;"	function	line:11
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <li class="nav-item" routerLinkActive="active">$/;"	function	line:12
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^          <a class="nav-link" [routerLink]="['home']">Home<\/a>$/;"	function	line:13
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <li class="nav-item" routerLinkActive="active">$/;"	function	line:15
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^          <a class="nav-link" [routerLink]="['buscar']">Buscar<\/a>$/;"	function	line:16
+li	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <li class="nav-item" routerLinkActive="active">$/;"	function	line:18
+a	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^        <a class="nav-link" [routerLink]="['about']">About...<\/a>$/;"	function	line:19
+form	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^    <form class="form-inline my-2 my-lg-0" (ngSubmit)="buscarPelicula(pelicula.value)">$/;"	function	line:22
+input	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <input class="form-control mr-sm-2" type="text" placeholder="Nombre Heroe" #pelicula>$/;"	function	line:23
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/shared/navbar/navbar.component.html	/^      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Buscar<\/button>$/;"	function	line:24
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^<div class="container main-container" *ngIf="peliculaSeleccionada">$/;"	function	line:1
+h	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^  <h1>{{peliculaSeleccionada.title}} <small>({{peliculaSeleccionada.release_date}})<\/small><\/h1>$/;"	function	line:2
+hr	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^  <hr>$/;"	function	line:3
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^  <div class="row animated fadeIn fast">$/;"	function	line:4
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^    <div class="col-md-6 div-pic-1 rounded" [ngStyle]="{ 'background-image': 'url( '+ (peliculaSeleccionada | mostrarImagen)+ ' )'  }">$/;"	function	line:5
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^    <div class="col-md-6">$/;"	function	line:7
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^      <p class="text-justify">{{peliculaSeleccionada.overview}}<\/p>$/;"	function	line:8
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/detalle/detalle.component.html	/^      <button class="btn btn-outline-warning" type="button" name="button" [routerLink]="['\/'+pagRegresar]">Regresar<\/button>$/;"	function	line:9
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^<div class="container main-container">$/;"	function	line:1
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^  <div class="row">$/;"	function	line:2
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^    <div class="col-md-12">$/;"	function	line:3
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^      <div class="form-group">$/;"	function	line:4
+label	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^        <label for="">Buscar<\/label>$/;"	function	line:5
+input	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^        <input class="form-control" [(ngModel)]="buscar" name="buscar" (keyup.enter)="buscarPelicula()" type="text" placeholder="Pelicula a buscar"><\/div>$/;"	function	line:6
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^  <div class="row" *ngIf="_movieSRV.resultadoBusqueda">$/;"	function	line:10
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^    <div class="card-columns">$/;"	function	line:11
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^      <div class="card" *ngFor="let pelicula of _movieSRV.resultadoBusqueda.results">$/;"	function	line:13
+img	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^        <img class="card-img-top img-fluid" src="{{pelicula | mostrarImagen}}" alt="{{pelicula.title}}">$/;"	function	line:14
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^        <div class="card-block">$/;"	function	line:15
+h	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^          <h4 class="card-title">{{pelicula.title}}<\/h4>$/;"	function	line:16
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^          <p class="card-text text-justify">{{pelicula.overview | slice:0:300}}...<\/p>$/;"	function	line:17
+button	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/buscar/buscar.component.html	/^          <button class="btn btn-outline-primary btn-block" type="button" name="button" [routerLink]="['\/detalle',pelicula.id,'buscar']">ver más<\/button>$/;"	function	line:18
+h	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^<h1>{{titulo}}<\/h1>$/;"	function	line:1
+hr	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^<hr>$/;"	function	line:2
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^<div class="row animated fadeIn fast">$/;"	function	line:3
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^  <div class="col-sm-6">$/;"	function	line:4
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^    <div class="row">$/;"	function	line:5
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^          <p class='pic-titulo'>$/;"	function	line:9
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^    <div class="row">$/;"	function	line:14
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^            <p class='pic-titulo'>$/;"	function	line:17
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^            <p class='pic-titulo'>$/;"	function	line:23
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^  <div class="col-sm-6">$/;"	function	line:29
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^    <div class="row">$/;"	function	line:30
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^            <p class='pic-titulo'>$/;"	function	line:33
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^            <p class='pic-titulo'>$/;"	function	line:39
+div	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^    <div class="row">$/;"	function	line:44
+p	/home/carlitos/Documentos/cursos-UDEMY/Angular/PeliculasAPP/src/app/componentes/home/galeria.component.html	/^      <p class='pic-titulo'>$/;"	function	line:47

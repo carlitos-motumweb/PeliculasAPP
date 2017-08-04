@@ -1,0 +1,12 @@
+<div class="container main-container" *ngIf="peliculaSeleccionada">
+  <h1>{{peliculaSeleccionada.title}} <small>({{peliculaSeleccionada.release_date}})</small></h1>
+  <hr>
+  <div class="row animated fadeIn fast">
+    <div class="col-md-6 div-pic-1 rounded" [ngStyle]="{ 'background-image': 'url( '+ (peliculaSeleccionada | mostrarImagen)+ ' )'  }">
+    </div>
+    <div class="col-md-6">
+      <p class="text-justify">{{peliculaSeleccionada.overview}}</p>
+      <button class="btn btn-outline-warning" type="button" name="button" [routerLink]="['/'+pagRegresar]">Regresar</button>
+    </div>
+  </div>
+</div>

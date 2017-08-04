@@ -1,0 +1,15 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Pel&iacute;culas APP</h1>
+    <p class="lead">Sitio que permite visualizar lo mas destacado del mes en el s&eacute;ptimo arte.</p>
+  </div>
+</div>
+<div class="container main-container" *ngIf="carteleraGeneral">
+    <app-galeria [peliculas]="carteleraGeneral" titulo="En cartelera"></app-galeria>
+</div>
+<div class="container main-container" *ngIf="populares">
+  <app-galeria [peliculas]="populares" titulo="Peliculas mas populares"></app-galeria>
+</div>
+<div class="container main-container" *ngIf="carteleraKids">
+  <app-galeria [peliculas]="carteleraKids" titulo="Populares infantiles"></app-galeria>
+</div>
